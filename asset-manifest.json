@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/prams628/prams628.github.io/static/css/main.c70c03c7.css",
-    "main.js": "/prams628/prams628.github.io/static/js/main.05fc1773.js",
-    "static/js/787.c570d52a.chunk.js": "/prams628/prams628.github.io/static/js/787.c570d52a.chunk.js",
-    "index.html": "/prams628/prams628.github.io/index.html",
-    "main.c70c03c7.css.map": "/prams628/prams628.github.io/static/css/main.c70c03c7.css.map",
-    "main.05fc1773.js.map": "/prams628/prams628.github.io/static/js/main.05fc1773.js.map",
-    "787.c570d52a.chunk.js.map": "/prams628/prams628.github.io/static/js/787.c570d52a.chunk.js.map"
+    "main.css": "/prams628.github.io/static/css/main.c70c03c7.css",
+    "main.js": "/prams628.github.io/static/js/main.1a1162c0.js",
+    "static/js/787.c570d52a.chunk.js": "/prams628.github.io/static/js/787.c570d52a.chunk.js",
+    "index.html": "/prams628.github.io/index.html",
+    "main.c70c03c7.css.map": "/prams628.github.io/static/css/main.c70c03c7.css.map",
+    "main.1a1162c0.js.map": "/prams628.github.io/static/js/main.1a1162c0.js.map",
+    "787.c570d52a.chunk.js.map": "/prams628.github.io/static/js/787.c570d52a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c70c03c7.css",
-    "static/js/main.05fc1773.js"
+    "static/js/main.1a1162c0.js"
   ]
 }
