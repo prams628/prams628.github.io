@@ -26,11 +26,11 @@ export const educationDetails = [
             },
             {
                 name: "Semantic Web Mining",
-                completed: false
+                completed: true
             },
             {
                 name: "Cloud Computing",
-                completed: false
+                completed: true
             }
         ]
     },
@@ -44,7 +44,7 @@ export const educationDetails = [
         opacity: 0.9,
         courses: [
             {
-                name: "Design and Analysis of Algorithms",
+                name: "Fundamentals of Algorithms",
                 completed: true
             },
             {

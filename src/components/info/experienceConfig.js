@@ -21,7 +21,7 @@ export const workExperience = [
     },
     {
         "companyName": "Akamai Technologies",
-        "date": "Jan 2021 - June 2021",
+        "date": "Jan - June 2021",
         "location": "Bengaluru, Karnataka, India",
         "position": "Software Engineer Intern",
         "summary": [

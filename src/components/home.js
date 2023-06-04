@@ -73,18 +73,23 @@ const About = () => {
     </>
   );
 
-  const education = <Education />
-  const experience = <Experience />
-
-  const items = [intro, name, description, education, experience];
+  const items = [intro, name, description];
 
   return (
     <StyledAboutSection>
-      {items.map((item, i) => (
-        <div key={i}>
-          {item}
-        </div>
-      ))}
+      <section id="home">
+        {items.map((item, i) => (
+          <div key={i}>
+            {item}
+          </div>
+        ))}
+      </section>
+      <section id="education">
+        <Education/>
+      </section>
+      <section id="experience">
+        <Experience/>
+      </section>
     </StyledAboutSection>
   );
 };

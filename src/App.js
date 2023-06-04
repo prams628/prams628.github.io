@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route, BrowserRouter } from "react-router-dom";
 import './App.css';
 import NavBar from './components/nav';
 import Experience from "./components/experience";
@@ -13,9 +13,9 @@ function App() {
         <NavBar />
         <Routes>
           <Route path='/' element={<About/>} />
-          <Route path="/experience" element={<Experience/>} />
-          <Route path="/education" element={ <Education/> } />
-          <Route path="/projects" element={ <Projects/> } />
+          <Route path="/#experience" element={<Experience/>} />
+          <Route path="/#education" element={ <Education/> } />
+          <Route path="/#projects" element={ <Projects/> } />
         </Routes>
       </BrowserRouter>
     </div>

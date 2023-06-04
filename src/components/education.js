@@ -56,11 +56,12 @@ const StyledEducationSection = styled.section`
       tr {
         td {
           ul {
-            display: flex;
             .inlineList {
               display: inline;
+              font-family: "Lucida Console", "Courier New", monospace;
               margin-left: 6px;
               margin-right: 6px;
+              margin-bottom: 0px;
             }
           }
         }
@@ -94,15 +95,18 @@ class Education extends Component {
                 <h5 style={{
                   marginTop: "10px"
                 }}>Notable courses include</h5>
-                <ul>
+                <ul
+                  style={{
+                    columnCount: Math.floor(row.courses.length / 2).toString()
+                  }}
+                >
                 {row.courses.map((item, i) => (
                   <li key={row.keyPrefix + i} className="inlineList">
                     <div style={{
-                      borderRadius: "15px",
-                      background: item.completed ? "#005e36" : "#fac69d",
-                      color: item.completed ? "#c9d1d9" : "#111827",
+                      borderRadius: "0.3rem",
+                      color: item.completed ? "#11b08f" : "#111827",
                       textAlign: "center",
-                      fontSize: "16px"
+                      fontSize: "12px"
                     }}>
                       {item.name}
                     </div>
@@ -121,6 +125,7 @@ class Education extends Component {
   render() {
     return (
       <StyledEducationSection>
+        <div className="spacer"/>
         <h1>Education</h1>
         <div className="spacer"/>
         <table style={{ tableLayout: "auto" }}>
