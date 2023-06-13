@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { skills, renderSkill } from "./info/techstack";
 import Experience from "./experience";
 import Education from "./education";
+import Projects from "./projects";
 
 const StyledAboutSection = styled.section`
   /* CSS of the section as a whole */
@@ -89,6 +90,9 @@ const About = () => {
       </section>
       <section id="experience">
         <Experience/>
+      </section>
+      <section id="projects">
+        <Projects/>
       </section>
     </StyledAboutSection>
   );

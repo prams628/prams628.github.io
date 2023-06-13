@@ -5,8 +5,14 @@ import Experience from "./components/experience";
 import About from "./components/home";
 import Education from "./components/education";
 import Projects from "./components/projects";
+import { useEffect } from "react";
 
 function App() {
+
+  useEffect(() => {
+    document.title = "Pramod Nagaraja"
+  }, []);
+
   return (
     <div className="App">
       <BrowserRouter>

@@ -82,7 +82,7 @@ const NavMenu = styled.div`
 const NavBar = () => {
 
   const [prevScrollPosition, setPrevScrollPosition] = useState(0);
-  const [visible, setVisible] = useState(false);
+  const [visible, setVisible] = useState(true);
 
   const handleScroll = debounce(() => {
     var currScrollPosition = window.scrollY;
